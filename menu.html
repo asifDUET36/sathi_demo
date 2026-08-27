@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | Shathi Food Park &amp; Resort</title>
+<meta name="description" content="Browse the full Shathi Food Park & Resort menu — Bangladeshi specials, grills, fast food and desserts. Order for pickup, dine-in or WhatsApp delivery.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="logo.png" alt="Shathi Food Park & Resort logo" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'brand-fallback',textContent:'S'}))">
+      <span>Shathi<small>Food Park &amp; Resort</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="resort.html">Resort</a>
+      <a href="foodpark.html">Dine &amp; Play</a>
+      <a href="explore.html">Explore Kushtia</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="https://wa.me/8801000000000" class="btn btn-mango btn-sm" target="_blank" rel="noopener"><span class="btn-label-full">WhatsApp Order</span>🍽️</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero bg-palm">
+  <div class="ambient" data-particles="🌶️,🍚,🥄" data-count="12"></div>
+  <div class="container">
+    <span class="crumb">Home / Menu</span>
+    <h1>Everything on the Shathi menu.</h1>
+    <p class="lead" style="max-width:560px; color:rgba(255,255,255,.85);">Search, filter by category, and tap + to send your order straight to our kitchen on WhatsApp.</p>
+  </div>
+</section>
+
+<section class="section-pad-sm">
+  <div class="container">
+    <div class="field" style="max-width:420px; margin-bottom:26px;">
+      <input type="search" id="menu-search" placeholder="Search dishes… e.g. biryani">
+    </div>
+    <div class="chip-row" style="margin-bottom:40px;">
+      <button class="chip active" data-filter-chip="all">All</button>
+      <button class="chip" data-filter-chip="specials">Bangladeshi Specials</button>
+      <button class="chip" data-filter-chip="grill">Grilled &amp; BBQ</button>
+      <button class="chip" data-filter-chip="fastfood">Chinese &amp; Fast Food</button>
+      <button class="chip" data-filter-chip="drinks">Beverages &amp; Desserts</button>
+    </div>
+
+    <div class="grid grid-3">
+
+      <div class="dish-card reveal" data-category="specials" data-name="Kacchi Biryani">
+        <div class="dish-media">🍛<span class="dish-tag">Bestseller</span></div>
+        <div class="dish-body"><h3>Kacchi Biryani</h3><p class="desc">Slow-cooked mutton, fragrant rice, secret spice blend.</p>
+          <div class="dish-foot"><span class="price">৳320</span><button class="add-btn" data-order-item="Kacchi Biryani" data-order-price="৳320">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="specials" data-name="Beef Tehari">
+        <div class="dish-media">🍚</div>
+        <div class="dish-body"><h3>Beef Tehari</h3><p class="desc">Aromatic rice cooked with tender beef and whole spices.</p>
+          <div class="dish-foot"><span class="price">৳260</span><button class="add-btn" data-order-item="Beef Tehari" data-order-price="৳260">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="specials" data-name="Padma River Fish Fry">
+        <div class="dish-media">🐟<span class="dish-tag">Local Catch</span></div>
+        <div class="dish-body"><h3>Padma River Fish Fry</h3><p class="desc">Fresh river fish, mustard marinade, crisp fry.</p>
+          <div class="dish-foot"><span class="price">৳260</span><button class="add-btn" data-order-item="Padma River Fish Fry" data-order-price="৳260">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="specials" data-name="Chicken Rezala">
+        <div class="dish-media">🍲</div>
+        <div class="dish-body"><h3>Chicken Rezala</h3><p class="desc">Creamy, mildly spiced curry with tender chicken.</p>
+          <div class="dish-foot"><span class="price">৳240</span><button class="add-btn" data-order-item="Chicken Rezala" data-order-price="৳240">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="grill" data-name="Chicken Sizzling Grill">
+        <div class="dish-media">🍢</div>
+        <div class="dish-body"><h3>Chicken Sizzling Grill</h3><p class="desc">Char-grilled chicken, smoky glaze, sizzling plate.</p>
+          <div class="dish-foot"><span class="price">৳300</span><button class="add-btn" data-order-item="Chicken Sizzling Grill" data-order-price="৳300">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="grill" data-name="Beef Seekh Kabab">
+        <div class="dish-media">🍖</div>
+        <div class="dish-body"><h3>Beef Seekh Kabab</h3><p class="desc">Char-grilled minced beef skewers, house spice mix.</p>
+          <div class="dish-foot"><span class="price">৳280</span><button class="add-btn" data-order-item="Beef Seekh Kabab" data-order-price="৳280">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="grill" data-name="Tandoori Chicken">
+        <div class="dish-media">🍗</div>
+        <div class="dish-body"><h3>Tandoori Chicken (Half)</h3><p class="desc">Yogurt-marinated chicken, roasted over open flame.</p>
+          <div class="dish-foot"><span class="price">৳250</span><button class="add-btn" data-order-item="Tandoori Chicken" data-order-price="৳250">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="fastfood" data-name="Chicken Chowmein">
+        <div class="dish-media">🍜</div>
+        <div class="dish-body"><h3>Chicken Chowmein</h3><p class="desc">Wok-tossed noodles, vegetables, soy-garlic sauce.</p>
+          <div class="dish-foot"><span class="price">৳180</span><button class="add-btn" data-order-item="Chicken Chowmein" data-order-price="৳180">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="fastfood" data-name="Chicken Burger">
+        <div class="dish-media">🍔</div>
+        <div class="dish-body"><h3>Shathi Special Burger</h3><p class="desc">Crispy chicken fillet, house sauce, fresh bun.</p>
+          <div class="dish-foot"><span class="price">৳150</span><button class="add-btn" data-order-item="Shathi Special Burger" data-order-price="৳150">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="fastfood" data-name="French Fries">
+        <div class="dish-media">🍟</div>
+        <div class="dish-body"><h3>Crispy French Fries</h3><p class="desc">Golden fries, house seasoning, served hot.</p>
+          <div class="dish-foot"><span class="price">৳120</span><button class="add-btn" data-order-item="Crispy French Fries" data-order-price="৳120">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="fastfood" data-name="Chicken Pizza">
+        <div class="dish-media">🍕</div>
+        <div class="dish-body"><h3>Chicken Tikka Pizza</h3><p class="desc">Wood-fired base, tikka chicken, mozzarella, herbs.</p>
+          <div class="dish-foot"><span class="price">৳350</span><button class="add-btn" data-order-item="Chicken Tikka Pizza" data-order-price="৳350">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="drinks" data-name="Mango Lassi">
+        <div class="dish-media">🥭<span class="dish-tag">Cool Down</span></div>
+        <div class="dish-body"><h3>Mango Lassi</h3><p class="desc">Chilled yogurt, ripe mango, a hint of cardamom.</p>
+          <div class="dish-foot"><span class="price">৳90</span><button class="add-btn" data-order-item="Mango Lassi" data-order-price="৳90">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="drinks" data-name="Borhani">
+        <div class="dish-media">🥤</div>
+        <div class="dish-body"><h3>Borhani</h3><p class="desc">Spiced, minted yogurt drink — the biryani's best friend.</p>
+          <div class="dish-foot"><span class="price">৳60</span><button class="add-btn" data-order-item="Borhani" data-order-price="৳60">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="drinks" data-name="Firni">
+        <div class="dish-media">🍮</div>
+        <div class="dish-body"><h3>Firni</h3><p class="desc">Creamy rice pudding, cardamom and pistachio.</p>
+          <div class="dish-foot"><span class="price">৳80</span><button class="add-btn" data-order-item="Firni" data-order-price="৳80">+</button></div></div>
+      </div>
+
+      <div class="dish-card reveal" data-category="drinks" data-name="Cold Coffee">
+        <div class="dish-media">🧋</div>
+        <div class="dish-body"><h3>Cold Coffee</h3><p class="desc">Chilled, creamy, lightly sweetened — an afternoon favourite.</p>
+          <div class="dish-foot"><span class="price">৳120</span><button class="add-btn" data-order-item="Cold Coffee" data-order-price="৳120">+</button></div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-pad-sm bg-cream">
+  <div class="container">
+    <div class="cta-banner reveal" style="background:linear-gradient(120deg,var(--chili),var(--mango-dark));">
+      <h2>Can't decide? Let our kitchen surprise you.</h2>
+      <a href="https://wa.me/8801000000000" target="_blank" rel="noopener" class="btn btn-ghost-light">Ask on WhatsApp →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><img src="logo.png" alt="" onerror="this.style.display='none'"><span>Shathi Food Park &amp; Resort</span></div>
+        <p>Bilsuka, Bheramara, Kushtia — your base for food, rest and discovery on the Padma.</p>
+        <div class="social-row"><a href="#">f</a><a href="#">ig</a><a href="https://wa.me/8801000000000">wa</a></div>
+      </div>
+      <div><h4>Explore</h4><ul>
+        <li><a href="menu.html">Order Food</a></li>
+        <li><a href="resort.html">Book a Room</a></li>
+        <li><a href="foodpark.html">Dine &amp; Play</a></li>
+        <li><a href="explore.html">Explore Kushtia</a></li>
+      </ul></div>
+      <div><h4>Company</h4><ul>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="contact.html">Directions</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul></div>
+      <div><h4>Reach Us</h4><ul>
+        <li>📍 Bilsuka, Bheramara, Kushtia</li>
+        <li>📞 +880 1000-000000</li>
+        <li>🕐 Open daily, 8:00am – 11:00pm</li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Shathi Food Park &amp; Resort. All rights reserved.</span><span>Stay. Dine. Explore.</span></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

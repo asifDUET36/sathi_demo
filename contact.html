@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact &amp; Booking | Shathi Food Park &amp; Resort</title>
+<meta name="description" content="Contact Shathi Food Park & Resort for table reservations, room bookings and trip planning help.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <img src="logo.png" alt="Shathi Food Park & Resort logo" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'brand-fallback',textContent:'S'}))">
+      <span>Shathi<small>Food Park &amp; Resort</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="resort.html">Resort</a>
+      <a href="foodpark.html">Dine &amp; Play</a>
+      <a href="explore.html">Explore Kushtia</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="https://wa.me/8801000000000" target="_blank" rel="noopener" class="btn btn-mango btn-sm"><span class="btn-label-full">WhatsApp Us</span>💬</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero bg-palm">
+  <div class="ambient" data-particles="✨,📍,💬" data-count="10"></div>
+  <div class="container">
+    <span class="crumb">Home / Contact</span>
+    <h1>Let's set up your visit.</h1>
+    <p class="lead" style="max-width:560px; color:rgba(255,255,255,.85);">Table reservations, room bookings, or help planning a Bheramara day trip — reach us any way that suits you.</p>
+  </div>
+</section>
+
+<section class="section-pad">
+  <div class="container" style="display:grid; grid-template-columns:1.1fr .9fr; gap:50px; align-items:start;">
+
+    <form class="form-card reveal" onsubmit="event.preventDefault(); window.location.href='mailto:hello@shathifoodpark.com?subject=New%20Enquiry%20from%20' + encodeURIComponent(this.name.value) + '&body=' + encodeURIComponent(this.message.value + '\n\nPhone: ' + this.phone.value + '\nType: ' + this.type.value);">
+      <h2 style="font-size:1.5rem;">Send us a message</h2>
+      <div class="field"><label for="name">Full name</label><input id="name" name="name" required placeholder="Your name"></div>
+      <div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" required placeholder="01XXXXXXXXX"></div>
+      <div class="field"><label for="type">I'm interested in</label>
+        <select id="type" name="type">
+          <option>Table Reservation</option>
+          <option>Room Booking</option>
+          <option>Dine & Play Visit</option>
+          <option>Trip Planning Help</option>
+          <option>Something Else</option>
+        </select>
+      </div>
+      <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="4" placeholder="Tell us the date, number of guests, or anything we should know"></textarea></div>
+      <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send Message →</button>
+    </form>
+
+    <div class="reveal">
+      <div class="info-card"><span class="ic">📍</span><div><strong>Address</strong><p style="margin:4px 0 0;">Bilsuka, Bheramara, Kushtia, Bangladesh</p></div></div>
+      <div class="info-card"><span class="ic">📞</span><div><strong>Phone</strong><p style="margin:4px 0 0;">+880 1000-000000</p></div></div>
+      <div class="info-card"><span class="ic">💬</span><div><strong>WhatsApp</strong><p style="margin:4px 0 0;"><a href="https://wa.me/8801000000000" target="_blank" rel="noopener" style="color:var(--river); font-weight:700;">Chat with us →</a></p></div></div>
+      <div class="info-card"><span class="ic">🕐</span><div><strong>Hours</strong><p style="margin:4px 0 0;">Open daily, 8:00am – 11:00pm</p></div></div>
+      <div class="info-card" style="border-bottom:none;"><span class="ic">✉️</span><div><strong>Email</strong><p style="margin:4px 0 0;">hello@shathifoodpark.com</p></div></div>
+
+      <div class="map-frame" style="margin-top:26px;">
+        <iframe loading="lazy" src="https://www.google.com/maps?q=Bheramara,Kushtia,Bangladesh&output=embed" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section-pad-sm bg-cream">
+  <div class="container">
+    <div class="cta-banner reveal" style="background:linear-gradient(120deg,var(--river),var(--palm));">
+      <h2>Prefer to just call? We're happy to help directly.</h2>
+      <a href="tel:+8801000000000" class="btn btn-ghost-light">Call +880 1000-000000 →</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><img src="logo.png" alt="" onerror="this.style.display='none'"><span>Shathi Food Park &amp; Resort</span></div>
+        <p>Bilsuka, Bheramara, Kushtia — your base for food, rest and discovery on the Padma.</p>
+        <div class="social-row"><a href="#">f</a><a href="#">ig</a><a href="https://wa.me/8801000000000">wa</a></div>
+      </div>
+      <div><h4>Explore</h4><ul>
+        <li><a href="menu.html">Order Food</a></li>
+        <li><a href="resort.html">Book a Room</a></li>
+        <li><a href="foodpark.html">Dine &amp; Play</a></li>
+        <li><a href="explore.html">Explore Kushtia</a></li>
+      </ul></div>
+      <div><h4>Company</h4><ul>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="contact.html">Directions</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul></div>
+      <div><h4>Reach Us</h4><ul>
+        <li>📍 Bilsuka, Bheramara, Kushtia</li>
+        <li>📞 +880 1000-000000</li>
+        <li>🕐 Open daily, 8:00am – 11:00pm</li>
+      </ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 Shathi Food Park &amp; Resort. All rights reserved.</span><span>Stay. Dine. Explore.</span></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
